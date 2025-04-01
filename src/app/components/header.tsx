@@ -6,7 +6,7 @@ const Header = () => {
     return (
       <div className="bg-[#F4F4F4] "> 
             <Nav />
-          <header className="relative md:h-[500px] flex items-center justify-center md:px-10 lg:px-20 xl:px-40">
+          <header className="relative md:h-[500px] flex items-center justify-evenly">
             <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imgs/herobg.svg')" }}>
             </div>
             <Nav />
