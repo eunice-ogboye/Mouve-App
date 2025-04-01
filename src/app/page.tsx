@@ -4,7 +4,7 @@ import Content from './components/sections'
 
 export default function Index() {
   return (
-    <div>
+    <div className='bg-[#F4F4F4]'>
         <Header />
         <Content />
     </div>
