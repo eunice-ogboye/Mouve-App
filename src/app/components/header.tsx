@@ -9,11 +9,10 @@ const Header = () => {
           <header className="relative md:h-[500px] px-8">
             <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imgs/herobg.svg')" }}>
             </div>
-            <Nav />
-           <div className="flex justify-between items-center h-full relative">
+           <div className="flex justify-evenly items-center h-full relative">
                
-              <div className="flex flex-col  items-start p-10 space-y-4 w-1/2">
-                    <p className="text-3xl md:text-xl text-dark font-extrabold">Get easy access to the most <span className='text-[#9A0536]'>efficient delivery</span> services closest to your doorstep at a snap of finger.
+              <div className="flex flex-col items-start p-10 space-y-4 w-1/2">
+                    <p className="text-5xl text-dark font-extrabold">Get easy access to the most <span className='text-[#9A0536]'>efficient delivery</span> services closest to your doorstep at a snap of finger.
                    </p>
                    <button className='bg-[#9A0536] text-white font-bold py-2 px-4 rounded'>Join the world of seamless logistics!</button>
               </div>
